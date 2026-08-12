@@ -6,6 +6,7 @@ export type FeaturedProject = {
   tags: string[];
   live?: string;
   github?: string;
+  demo?: string;
   stat?: string;
 };
 
@@ -56,6 +57,7 @@ export const featuredProjects: FeaturedProject[] = [
       "An end-to-end 3D generation pipeline running on a GPU-enabled Azure VM, with automated GLB export straight into Blender-ready assets.",
     tags: ["FastAPI", "PyTorch", "TripoSR", "Azure", "Blender", "MCP", "CLIP", "DinoV2", "K-Means"],
     github: "https://github.com/krVatsal/MeshWorks",
+    demo: "https://drive.google.com/file/d/1r6hkBwANye73VCUGwIQxivr3zGQ3nmCM/view?usp=sharing",
     stat: "80% faster processing",
   },
   {

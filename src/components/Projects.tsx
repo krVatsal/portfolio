@@ -1,7 +1,7 @@
 "use client";
 
 import { motion, Variants } from "framer-motion";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Play } from "lucide-react";
 import { GithubIcon } from "@/components/icons";
 import { featuredProjects, openSourceProjects } from "@/lib/projects";
 import { projectVisuals } from "@/components/ProjectVisual";
@@ -91,6 +91,17 @@ export default function Projects() {
                         className="inline-flex items-center gap-1.5 font-sans text-sm text-foreground hover:text-accent transition-colors"
                       >
                         Live site <ArrowUpRight size={15} />
+                      </a>
+                    )}
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        data-cursor-hover
+                        className="inline-flex items-center gap-1.5 font-sans text-sm text-foreground hover:text-accent transition-colors"
+                      >
+                        <Play size={15} /> Demo
                       </a>
                     )}
                     {project.github && (
