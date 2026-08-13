@@ -68,6 +68,7 @@ export const featuredProjects: FeaturedProject[] = [
       "Native support for 11+ Indian languages with voice narration via Bhashini, regional context intelligence (Delhi Metro, Mumbai Dabbawalas), and Manim-powered animated educational videos across multiple LLM providers.",
     tags: ["Python", "FastAPI", "Next.js", "PostgreSQL", "Redis", "Docker", "Manim", "Bhashini API"],
     github: "https://github.com/krVatsal/medhavii",
+    demo: "https://drive.google.com/file/d/1juv0_lqeC7pJEpDWaTBxcDxDjH-utUL1/view?usp=sharing",
     stat: "11+ languages",
   },
   {
